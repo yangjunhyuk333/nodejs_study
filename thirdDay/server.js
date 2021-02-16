@@ -8,7 +8,7 @@ http.createServer( function(request, response){
     console.log("Request for " + pathname + " received.");
 
     if(pathname=="/"){
-        pathname = "D:/project/Cafeterian/Server/nodejs_test/thirdDay/index.html";
+        pathname = "/c:/Users/cucun/Desktop/project/Cafeterian/Server/nodejs_test/index.html";
     }
 
     fs.readFile(pathname.substr(1), function(err, data){
