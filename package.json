@@ -4,7 +4,8 @@
   "description": "Node js 를 공부하기 위한 프로젝트",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {
